@@ -1,0 +1,118 @@
+/* .flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.calculationbox {
+
+    height: fit-content;
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 50px lightgray, 0 0 25px lightgray, 0 0 5px lightgray  ;
+
+}
+
+.box1 {
+    width: 100%;
+    height: 323px;
+    border: 0.5px lightgray;
+    /* flex-direction: column; */
+
+}
+
+.valueinput {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.valueinput .textfields {
+    width: 214px;
+    height: 46px;
+    margin: 0px 7px;
+    border: 2px solid aqua;
+    border-radius: 35px;
+}
+
+.operatorsign {
+    height: 33px;
+    width: 41px;
+    background-color: white;
+}
+
+.btnbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 39px auto;
+}
+
+.btnbox .btn {
+    color: white;
+    background-color: rgb(54, 211, 54);
+    height: 44px;
+    width: 164px;
+    border: black;
+    border-radius: 21px;
+    font-size: 22px;
+}
+.btnbox .btn:hover {
+    box-shadow:  0 0 10px rgb(54, 211, 54);
+}
+.operatorsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+.operatorsbox .operator{
+    height: 43px;
+width: 62px;
+color: blue;
+background-color: rgb(255, 255, 255);
+font-size: 28px;
+margin: auto 4px;
+border: 2px solid blue;
+border-radius: 12px;
+}
+.operatorsbox .operator:hover{
+    box-shadow:  0 0 10px blue;
+}
+.sign{
+    margin: -3px 0px 0px 10px;
+    color: darkblue;
+    font-size: 38px;
+}
+
+
+.resultbox{
+    display: flex;
+    height: 90px;
+    border: 0.5px lightgray;
+    width: 600px;
+    margin: -40px auto;
+    box-shadow: 0 0 50px lightgray, 0 0 25px lightgray, 0 0 5px lightgray;
+    flex-direction: row;
+    justify-content: center;
+}
+.resultclass{
+    color: red;
+    font: -moz-dialog;
+    font-size: 48px;
+    margin: 14px 0px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(54, 211, 54);
+}
